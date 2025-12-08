@@ -11,14 +11,14 @@ export default function BebidasPage() {
     {
       id: 101,
       nome: "Coca Cola Lata",
-      preco: 5,
+      preco: 5.5,
       imagem: "/coca.jpg",
       categoria: "Bebidas",
     },
     {
       id: 102,
       nome: "Coca Cola Lata Zero",
-      preco: 5,
+      preco: 5.5,
       imagem: "/cocazero.png",
       categoria: "Bebidas",
     },
@@ -39,14 +39,14 @@ export default function BebidasPage() {
     {
       id: 105,
       nome: "Coca Cola 2 Litros",
-      preco: 13,
+      preco: 13.5,
       imagem: "/coca2l.png",
       categoria: "Bebidas",
     },
     {
       id: 106,
       nome: "Coca Cola 2 Litros Zero",
-      preco: 13,
+      preco: 13.5,
       imagem: "/coca2l0.png",
       categoria: "Bebidas",
     },
@@ -61,7 +61,7 @@ export default function BebidasPage() {
       id: 108,
       nome: "Roller 2 Litros",
       preco: 10,
-      imagem: "/roller.png",
+      imagem: "/roller1.jpg",
       categoria: "Bebidas",
     },
     {
@@ -86,7 +86,7 @@ export default function BebidasPage() {
       style: "currency",
       currency: "BRL",
     });
-  }
+   }
 
   return (
     <div className="p-6 mb-76">

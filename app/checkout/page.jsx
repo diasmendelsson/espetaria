@@ -3,6 +3,7 @@ import { useCart } from "../../context/CartContext";
 import { useState } from "react";
 
 export default function CheckoutPage() {
+  
   const { selecionados } = useCart();
 
   const [tipoEntrega, setTipoEntrega] = useState("retirada");

@@ -18,6 +18,9 @@ export default function Home() {
         <Link href="/acompanhamentos" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
           Acompanhamentos
         </Link>
+         <Link href="/combos" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
+          Combos
+        </Link>
       </div>
       
        

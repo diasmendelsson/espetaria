@@ -1,6 +1,9 @@
 "use client";
 import { useCart } from "../context/CartContext";
 
+
+import Link from "next/link";
+
 export default function Carrinho() {
   const { selecionados, adicionar, remover, atualizarPonto } = useCart();
 
@@ -19,6 +22,9 @@ export default function Carrinho() {
       currency: "BRL",
     });
   }
+
+ 
+
 
   return (
     <div className="fixed bottom-4 right-4 bg-[#3A2217] p-4 rounded-2xl shadow-2xl w-80 border border-[#5b3a2a]">
@@ -55,12 +61,16 @@ export default function Carrinho() {
         </ul>
       )}
 
-      <p className="text-lg mt-4 text-[#F5C26B]">
+      
+
+      <p className="text-lg mt-4 text-[#F5C26B] mb-4">
         Total:{" "}
         <span className="text-[#F5C26B] font-bold">
           {formatCurrency(totalFinal)}
         </span>
       </p>
+
+      <Link href="/checkout" className=" bg-[#D97925] w-full p-2 rounded-xl text-white font-bold">Finalizar Pedido</Link>
     </div>
   );
 }
