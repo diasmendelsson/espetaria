@@ -22,9 +22,10 @@ return(
         <Link href="/espetos" className={linkClasses("/espetos")}>Espetos</Link>
         <Link href="/bebidas" className={linkClasses("/bebidas")}>Bebidas</Link>
         <Link href="/acompanhamentos" className={linkClasses("/acompanhamentos")}>Acompanhamentos</Link>
-         <Link href="/combos"  className={linkClasses("/combos")}>
-          Combos
-        </Link>
+        <Link href="/arroz"  className={linkClasses("/arroz")}> Arroz Temperado</Link>
+        <Link href="/combos"  className={linkClasses("/combos")}> Combos</Link>
+        
+
         <Link href="/checkout" className={linkClasses("/checkout")}>Finalizar Pedido</Link>
       </nav>
 

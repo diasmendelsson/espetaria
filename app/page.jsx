@@ -21,11 +21,12 @@ export default function Home() {
          <Link href="/combos" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
           Combos
         </Link>
-      </div>
-      
+        <Link href="/arroz" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
+          Arroz Temperado
+        </Link>
        
-
-      <Carrinho />
+      </div>
+    
 
       <p className="text-center mt-8 font-bold">Desenvolvido por MD Infraestrutura e Tecnologia</p>
 

@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <body className="bg-[#2C1B12] text-white">
         <CartProvider>
           <Header />
-          <div className="pt-24"> {/* espaço por causa do cabeçalho fixo */}
+          <div className="pt-26 pb"> {/* espaço por causa do cabeçalho fixo */}
             {children}
           </div>
    
