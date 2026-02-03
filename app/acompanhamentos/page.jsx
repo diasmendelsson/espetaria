@@ -44,37 +44,7 @@ export default function AcompanhamentosPage() {
       imagem: "/pate.jpg",
       categoria: "Acompanhamentos",
     },
-     {
-      id: 206,
-      nome: "Arroz Branco Tipo A",
-      preco: 6,
-      imagem: "/arroz.jpg",
-      categoria: "Acompanhamentos",
-    },
-     {
-      id: 207,
-      nome: "Arroz com Brócolis, Bacon e Calabresa",
-      descricao: "250g",
-      preco: 13,
-      imagem: "/arroz.jpg",
-      categoria: "Acompanhamentos",
-    },
-     {
-      id: 208,
-      nome: "Arroz Temperado com Legumes",
-      descricao: "250g",
-      preco: 13,
-      imagem: "/arroz.jpg",
-      categoria: "Acompanhamentos",
-    },
-     {
-      id: 209,
-      nome: "Arroz à Grega com Frango Desfiado",
-      preco: 13,
-      imagem: "/arroz.jpg",
-      categoria: "Acompanhamentos",
-    },
- 
+    
   
   ];
 

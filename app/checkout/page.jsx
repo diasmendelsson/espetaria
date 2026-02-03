@@ -54,7 +54,7 @@ export default function CheckoutPage() {
       (tipoEntrega === "entrega" ? `%0AEndereço: ${endereco}` : "") +
       `%0A%0ATotal: *${formatCurrency(totalFinal)}*`;
 
-    const numero = "5517996567779";
+    const numero = "5517991623176";
     window.location.href = `https://wa.me/${numero}?text=${mensagem}`;
   }
 
