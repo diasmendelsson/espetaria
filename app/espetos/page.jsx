@@ -16,7 +16,7 @@ export default function EspetosPage() {
     { id: 7, nome: "Kafta Angus com Queijo", preco: 12, imagem: "/kafta.jpg", categoria:"Espetos" },
     { id: 8, nome: "Kafta Angus com Pimenta Biquinho", preco: 12, imagem: "/kafta.jpg", categoria: "Espetos" },
     { id: 9, nome: "Kafta de Quibe com Queijo", preco: 12, imagem: "/kaftakibe.jpg", categoria: "Espetos" },
-    { id: 10, nome: "Kafta de Costela com Cebola Roxa", preco: 12.50, imagem: "/costela-bovina.jpg", categoria: "Espetos" },
+    { id: 10, nome: "Kafta de Costela com Cebola Roxa", preco: 12.50, imagem: "/kafta.jpg", categoria: "Espetos" },
     { id: 11, nome: "Cuiabana no Espeto", preco: 14, imagem: "/linguica-cuiabana.jpg", categoria: "Espetos" },
     { id: 12, nome: "Cuiabana de Frango", preco: 14, imagem: "/linguica-frango.jpg", categoria: "Espetos" },
     { id: 13, nome: "Linguiça Toscana", preco: 10, imagem: "/linguica.jpg", categoria: "Espetos" },
@@ -30,7 +30,7 @@ export default function EspetosPage() {
     { id: 21, nome: "Cudiguim", preco: 11.50, imagem: "/codeguim.png", categoria: "Espetos" },
     { id: 22, nome: "Queijo Coalho", preco: 6.5, imagem: "/queijo.jpg", categoria: "Espetos" },
     { id: 23, nome: "Queijo Coalho com Mel", preco: 9, imagem: "/queijo.jpg", categoria: "Espetos" },
-    { id: 24, nome: "Romeu e Julieta", preco: 9, imagem: "/roeta.jpg", categoria: "Espetos" },
+    { id: 24, nome: "Romeu e Julieta", preco: 9, imagem: "/queigo.jpeg", categoria: "Espetos" },
     { id: 25, nome: "Queijo Provolone", preco: 7.5, imagem: "/provolone.jpg", categoria: "Espetos" },
     { id: 26, nome: "Pão de Alho", preco: 5.5, imagem: "/pao.jpg", categoria: "Espetos" },
     { id: 27, nome: "Catupiry + Alho Frito", descricao:"Pode adicionar em qualquer espeto", preco: 4, imagem: "/alho.jpg", categoria: "Espetos" }

@@ -39,7 +39,7 @@ export default function Home() {
           Acompanhamentos
         </Link>
          <Link href="/combos" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
-          Combos
+          Jantinha
         </Link>
         <Link href="/arroz" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
           Arroz Temperado
