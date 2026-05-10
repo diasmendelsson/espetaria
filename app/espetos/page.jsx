@@ -9,8 +9,8 @@ export default function EspetosPage() {
 
     { id: 1, nome: "Carne Angus", preco: 12, imagem: "/alcatra.jpg", categoria: "Espetos" },
     { id: 2, nome: "Frango", preco: 10, imagem: "/frango.jpg", categoria: "Espetos" },
-    { id: 3, nome: "Carne com Legumes", descricao:"Pimentão Amarelo, Verde, Vermelho e Cebola", preco: 11.50, imagem: "/carne-legume.jpg", categoria: "Espetos"},
-    { id: 4, nome: "Frango com Legumes", descricao:"Pimentão Amarelo, Verde, Vermelho e Cebola", preco: 13.50, imagem: "/legumes-frango.jpg", categoria: "Espetos"},
+    { id: 3, nome: "Carne com Legumes", descricao:"Pimentão Amarelo, Verde, Vermelho e Cebola", preco: 13.50, imagem: "/carne-legume.jpg", categoria: "Espetos"},
+    { id: 4, nome: "Frango com Legumes", descricao:"Pimentão Amarelo, Verde, Vermelho e Cebola", preco: 11.50, imagem: "/legumes-frango.jpg", categoria: "Espetos"},
     { id: 5, nome: "Kafta Angus", preco: 11, imagem: "/kafta.jpg", categoria: "Espetos" },
     { id: 6, nome: "Kafta Frango com Provolone e Manjericão", preco: 12.50, imagem: "/kafta-frango.jpg", categoria: "Espetos"},
     { id: 7, nome: "Kafta Angus com Queijo", preco: 12, imagem: "/kafta.jpg", categoria:"Espetos" },
