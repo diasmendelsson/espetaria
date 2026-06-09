@@ -19,6 +19,7 @@ return(
       
       <nav className="flex gap-4 overflow-x-auto scrollbar-none text-lg font-semibold mb-2">
         <Link href="/" className={linkClasses("/")}>Home</Link>
+        <Link href="/picanha" className={linkClasses("/picanha")}>Picanha</Link>
         <Link href="/espetos" className={linkClasses("/espetos")}>Espetos</Link>
         <Link href="/bebidas" className={linkClasses("/bebidas")}>Bebidas</Link>
         <Link href="/acompanhamentos" className={linkClasses("/acompanhamentos")}>Acompanhamentos</Link>

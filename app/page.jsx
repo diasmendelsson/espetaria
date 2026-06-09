@@ -28,6 +28,11 @@ export default function Home() {
             <Image src="/estrela.png" width={18} height={18} alt="estrela" />
             <Image src="/estrela.png" width={18} height={18} alt="estrela" />
           </div>
+        
+        </Link>
+
+        <Link href="/picanha" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
+          Picanha
         </Link>
         <Link href="/espetos" className="bg-[#D97925] p-4 text-center rounded-xl text-white font-bold">
           Espetos

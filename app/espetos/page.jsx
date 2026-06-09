@@ -7,8 +7,9 @@ export default function EspetosPage() {
 
     const produtos = [
 
-    { id: 1, nome: "Carne Angus", preco: 12, imagem: "/alcatra.jpg", categoria: "Espetos" },
-    { id: 2, nome: "Rojão de Toscana", descricao:"Recheada com Queijo Coalho", preco: 16, imagem: "/rojao.jpg", categoria: "Espetos" },
+    { id: 0, nome: "Carne Angus", preco: 12, imagem: "/alcatra.jpg", categoria: "Espetos" },
+    { id: 1, nome: "Rojão Bovino", descricao:"Recheado com Queijo Coalho", preco: 16, imagem: "/rojaob.png", categoria: "Espetos" },
+    { id: 2, nome: "Rojão de Toscana", descricao:"Recheada com Queijo Coalho", preco: 16, imagem: "/rojao.jpeg", categoria: "Espetos" },
     { id: 3, nome: "Frango", preco: 10, imagem: "/frango.jpg", categoria: "Espetos" },
     { id: 4, nome: "Carne com Legumes", descricao:"Pimentão Amarelo, Verde, Vermelho e Cebola", preco: 13.50, imagem: "/carne-legume.jpg", categoria: "Espetos"},
     { id: 5, nome: "Frango com Legumes", descricao:"Pimentão Amarelo, Verde, Vermelho e Cebola", preco: 11.50, imagem: "/legumes-frango.jpg", categoria: "Espetos"},
